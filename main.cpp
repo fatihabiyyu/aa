@@ -1,9 +1,13 @@
+// ini buat import library
 #include <iostream>
+// ini buat ringkas kode
 using namespace std;
+// ini buat deklarasi variabel
 string nama;
 int umur;
 string alamat;
 string handphone;
+// fungsi utama
 
 int main() {
     cout << "masukan nama anda ";
@@ -18,6 +22,7 @@ int main() {
     cout << "masukan jenis handphone anda ";
     cin >> handphone;
     // cout << "address " << alamat << endl;
+    // final output
     cout << "halo " << nama << "\numur nya " << umur << " y.o " << " \nhandphone " << handphone << " \nalamatnya " << alamat << endl;
     return 0;
 }

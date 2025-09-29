@@ -1,0 +1,5 @@
+a, b, c =map (int, input("masukkan tiga bilangan: ").split())
+max_num = max(a, b, c)
+min_num = min(a, b, c)
+print("bilangan terbesar adalah: ", max_num)
+print("bilangan terkecil adalah: ", min_num)

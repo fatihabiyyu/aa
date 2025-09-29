@@ -13,3 +13,4 @@ handphone = str(input("masukkan nomor handphone: "))
 # print("nomor handphone\t: ", handphone)
 
 print(f"nama\t\t; {nama}\numur\t\t: {umur}\nalamat\t\t: {alamat}\nnomor handphone\t: {handphone}")
+
